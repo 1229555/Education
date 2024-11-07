@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "audio-file-storage",
+    "slug": "audio-file-storage",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "We need access to your microphone to record audio."
+      }
+    },
+    "main": "node_modules/expo/AppEntry.js",
+    "router": {
+      "routes": [
+        {
+          "path": "/",
+          "component": "screens/AudioTab.js"
+        },
+        {
+          "path": "/files",
+          "component": "screens/FilesTab.js"
+        }
+      ]
+    }
+  }
+}
+
+
